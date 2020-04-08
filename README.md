@@ -7,7 +7,7 @@ This Python script is written for Project 2 (Term 1) of Udacity's Data Analyst N
 
 You can run the script using a Python integrated development environment (IDE) such as Spyder. To install Spyder, you will need to download the Anaconda installer. This script is written in Python 3, so you will need the Python 3.x version of the installer. After downloading and installing Anaconda, you will find the Spyder IDE by opening Anaconda Navigator.
 
-** Program Details**
+**Program Details**
 
 The program takes user input for the city (e.g. Chicago), month for which the user wants to view data (e.g. January; also includes an 'all' option), and day for which the user wants to view data (e.g. Monday; also includes an 'all' option).
 
@@ -29,5 +29,6 @@ The most common birth year amongst users (if available)
 Finally, the user is prompted with the choice of restarting the program or not.
 
 **Requirements**
+
 Language: Python 3.6 or above
 Libraries: pandas, numpy, time
