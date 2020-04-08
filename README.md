@@ -31,4 +31,16 @@ Finally, the user is prompted with the choice of restarting the program or not.
 **Requirements**
 
 Language: Python 3.6 or above
+
 Libraries: pandas, numpy, time
+
+**Built with**
+
+Python 3.6.6 - The language used to develop
+pandas - One of the libraries used
+numpy - One of the libraries used
+time - One of the libraries used
+
+**Author**
+
+**Mivule Joseph** - Sole author for this program.

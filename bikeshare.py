@@ -37,7 +37,7 @@ def get_filters():
                 continue
             city = CITY_DATA[city]
         break
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, march, april, ... , june)
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while 1:
         choice = input('Do you want to filter the data by month and week? Yes/No\n').lower()
@@ -126,7 +126,7 @@ def load_data(city, month, day):
     if month != 'all':
         df = df[df['month'] == month]
 
-        # filter by day of week if applicable
+        # user filters by day of week if applicable
     if day != 'all':
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day]
